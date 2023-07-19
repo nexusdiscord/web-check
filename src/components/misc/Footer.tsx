@@ -47,14 +47,14 @@ const Footer = (props: { isFixed?: boolean }): JSX.Element => {
   const githubUrl = 'https://github.com/lissy93/web-check';
   return (
   <StyledFooter style={props.isFixed ? {position: 'fixed'} : {}}>
-    <span>
+    <--<span>
       View source at <Link href={githubUrl}>github.com/lissy93/web-check</Link>
     </span>
     <span>
       <Link href={homeUrl}>Web-Check</Link> is
       licensed under <Link href={licenseUrl}>MIT</Link> -
       © <Link href={authorUrl}>Alicia Sykes</Link> 2023
-    </span>
+    </span>-->
   </StyledFooter>
   );
 }
